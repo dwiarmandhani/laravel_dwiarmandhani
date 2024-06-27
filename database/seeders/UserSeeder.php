@@ -19,7 +19,7 @@ class UserSeeder extends Seeder
             [
                 'username' => 'admin',
                 'email' => 'admin@example.com',
-                'password' => Hash::make('password'), // Use bcrypt or Hash::make to hash passwords
+                'password' => Hash::make('password'),
             ],
             [
                 'username' => 'user1',
